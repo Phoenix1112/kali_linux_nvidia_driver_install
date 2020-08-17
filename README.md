@@ -1,4 +1,4 @@
-update linux
+update linux and install linux headers
 
 ```
 sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get install linux-headers-$(uname -r)
