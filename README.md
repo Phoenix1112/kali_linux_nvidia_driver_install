@@ -4,6 +4,12 @@ Download Driver from Nvidia website
 https://www.nvidia.com.tr/drivers
 ```
 
+remove all nvidia drivers
+
+```
+sudo apt purge nvidia-*
+```
+
 install this settings
 
 ```
