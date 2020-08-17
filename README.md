@@ -4,6 +4,12 @@ Download Driver from Nvidia website
 https://www.nvidia.com.tr/drivers
 ```
 
+install this settings
+
+```
+sudo apt install build-essential dkms
+```
+
 kali linux working with "nouveau" ... we will disable it..
 
 ```
@@ -16,7 +22,7 @@ After logging in, let's go to the directory of the nvidia driver file. Let's run
 
 ```
 sudo chmod +x nvidia-driver-name.run
-sudo ./nvdia-driver-name.run
+sudo ./nvdia-driver-name.run --dkms -s
 
 ```
 
